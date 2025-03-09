@@ -1,0 +1,21 @@
+{
+  "name": "aoijs.mongo",
+  "description": "MongoDB extension for Aoi.js",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "biome lint src --fix",
+    "format": "biome format src --write",
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "aoi.js": "^6.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "mongoose": "^8.12.1"
+  }
+}
